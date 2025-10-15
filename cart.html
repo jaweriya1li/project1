@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart - Shines & Spark</title>
+  <link rel="stylesheet" href="cart.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">💎 Shines & Spark</div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="active">Cart (<span id="cartCount">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cart-section">
+    <h1>Your Jewelry Cart</h1>
+    <div class="cart-container" id="cartContainer"></div>
+
+    <div class="cart-total">
+      <h3>Total: $<span id="cartTotal">0</span></h3>
+      <button id="checkoutBtn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Shines & Spark | All Rights Reserved</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
